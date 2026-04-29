@@ -1,0 +1,6 @@
+model\ErrorMessageModel.class
+hook\Hook.class
+services\CadastroEntregasService.class
+steps\CadastroEntregasStep.class
+runner\TestRunner.class
+model\EntregaModel.class

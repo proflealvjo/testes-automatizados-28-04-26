@@ -13,7 +13,7 @@ Funcionalidade: Cadastro de nova entrega
       | statusEntrega  | EM_SEPARACAO |
       | dataEntrega    | 2024-08-22   |
     Quando eu enviar a requisição para o endpoint "/entregas" de cadastro de entregas
-    Então o status code da resposta deve ser 201
+    Então o status code da resposta deve ser 204
 
   @padrão
   Cenário: Cadastro de entrega sem sucesso ao passar o campo statusEntrega invalido
